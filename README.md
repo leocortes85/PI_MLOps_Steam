@@ -47,5 +47,5 @@ Three provided JSON files were used:
 
 This README provides an overview of the MLOps project for the Steam platform, highlighting key processes and outcomes. For detailed information on implementation, refer to the documentation and source code on the [GitHub repository](https://github.com/leocortes85/PI_MLOps_Steam). You can also access the API and explore the documentation at the [API link](/docs).
 
-To learn more about the creator of this project, visit his [LinkedIn profile](https://www.linkedin.com/in/leonardo-cort%C3%A9s-zambrano-13522295/)(LinkedIn" src="https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin).
+To learn more about the creator of this project, visit his [LinkedIn profile](https://www.linkedin.com/in/leonardo-cort%C3%A9s-zambrano-13522295/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/leonardo-cort%C3%A9s-zambrano-13522295/)
 
