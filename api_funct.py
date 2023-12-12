@@ -7,10 +7,10 @@ warnings.filterwarnings("ignore")
 
 #Load data
 
-df_playtime_genre = pd.read_parquet('Data/playtime_genre.parquet')
-df_user_for_genre = pd.read_parquet('Data/user_for_genre.parquet')
-df_user_recommend = pd.read_parquet('Data/user_recommend.parquet')
-df_sentiment_year = pd.read_parquet('Data/sentiment_year.parquet')
+df_playtime_genre = pd.read_parquet('Data/parquet/playtime_genre.parquet')
+df_user_for_genre = pd.read_parquet('Data/parquet/user_for_genre.parquet')
+df_user_recommend = pd.read_parquet('Data/parquet/user_recommend.parquet')
+df_sentiment_year = pd.read_parquet('Data/parquet/sentiment_year.parquet')
 
 
 def Intro():
@@ -72,13 +72,15 @@ def Intro():
     <body>
         <h1>Leonardo Cortes. IP1, 'Soy Henry' Data Bootcamp</h1>
         <h1>Steam Platform Video Game Query API</h1>
-        <p>Welcome!</p>
-        <p>To interact with available endpoints, explore the API documentation clicking <a href="/docs">HERE</a> .</p>
+        <h1>Welcome!</h1>
+        <p>To interact with available endpoints, explore the API documentation clicking the image.</p>
+        <a href="/docs"><img src="https://img.asmedia.epimg.net/resizer/XsDeF1LjuA8ud6DsQpHUuq9Ropw=/644x362/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/MWVSLOODJVBRDAIZ5DMRUDQIRM.jpg" alt="Steam Image" style="width: 500px; height: auto; margin-top: 20px;"></a>
+    
         <p>For project details, check out the <a href="https://github.com/leocortes85/PI_MLOps_Steam" target="_blank" rel="noopener noreferrer" class="github-badge">GitHub repository <img alt="GitHub" src="https://img.shields.io/badge/GitHub-black?style=flat-square&logo=github"></a></p>
+        <p>More about Leonardo, visit his  <a href="https://www.linkedin.com/in/leonardo-cort%C3%A9s-zambrano-13522295/"> Linkedin profile <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin"></a></p>
     </body>
     </html>
         '''
-
 
 def PlayTimeGenre(genre: str):
     """

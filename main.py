@@ -104,4 +104,3 @@ def sentiment_analysis(year: int = Query(...,
                                 description="The target year for filtering reviews", 
                                 example='2014')):
     return ft.sentiment_analysis(year)
-
