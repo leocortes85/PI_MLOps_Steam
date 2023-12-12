@@ -245,7 +245,7 @@ def sentiment_analysis(year):
     return result
 
 
-def similar_user_recs(user: str):
+def user_similarity(user: str):
     '''
     Generates a list of the most recommended items for a user, based on ratings from similar users.
 
@@ -287,7 +287,7 @@ def similar_user_recs(user: str):
 
 
 
-def get_recommendations_by_id(item_id: int):
+def item_similarity(item_id: int):
     '''
     Generates recommendations for a game given its ID.
 

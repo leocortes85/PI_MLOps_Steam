@@ -119,7 +119,7 @@ def sentiment_analysis(year: int = Query(...,
 def similar_user_recs(user: str = Query(..., 
                                 description="User id in the Steam Platform", 
                                 example='Urotsuki')):
-    return ft.similar_user_recs(user)
+    return ft.user_similarity(user)
 
 
 
@@ -135,4 +135,4 @@ def similar_user_recs(user: str = Query(...,
 def get_recommendations_by_id(item_id: int = Query(..., 
                                 description="Item id in the Steam Platform", 
                                 example='322920')):
-    return ft.get_recommendations_by_id(item_id)
+    return ft.item_similarity(item_id)
