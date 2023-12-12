@@ -50,7 +50,7 @@ def save_to_pq(dfs, names):
         - file_name: Name of the parquet file.
     """
     for df, name in zip(dfs, names):
-        archivo = f'data/{name}.parquet'
+        archivo = f'data/parquet/{name}.parquet'
         pq.write_table(pa.Table.from_pandas(df), archivo)
         print(f"DataFrame '{name}' save as '{archivo}'")
 
