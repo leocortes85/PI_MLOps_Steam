@@ -13,7 +13,7 @@ Proyecto individual parar el bootcamp de Data Science de 'Soy Henry'
 
 ## Descripción del Proyecto
 
-Este proyecto simula el rol de un MLOps Engineer, combinando las responsabilidades de un Data Engineer y un Data Scientist, para la plataforma multinacional de videojuegos Steam. El objetivo es desarrollar un Producto Mínimo Viable que incluya una API deployada en un servicio en la nube y la aplicación de dos modelos de Machine Learning. Estos modelos abordan el análisis de sentimientos sobre los comentarios de los usuarios de los juegos y la recomendación de juegos basada en información de usuarios.
+Este proyecto simula el rol de un MLOps Engineer, combinando las responsabilidades de un Data Engineer y un Data Scientist, para la plataforma multinacional de videojuegos Steam. El objetivo es desarrollar un Producto Mínimo Viable que incluya una API deployada en un servicio en la nube y la aplicación de dos modelos de Machine Learning. Estos modelos abordan el análisis de sentimientos sobre los comentarios de los usuarios de los juegos, la recomendación de juegos basada en información de usuarios y la similitud entre los juegos por generos.
 
 Steam, una plataforma de distribución digital de videojuegos, cuenta con más de 325 millones de usuarios y ofrece más de 25,000 juegos en su catálogo.
 

@@ -13,7 +13,7 @@ Individual Project for 'Soy Henry' Data Boot Camp
 
 ## Project Description
 
-In this project, we simulate the role of an MLOps Engineer, combining responsibilities of a Data Engineer and Data Scientist, for the multinational video game platform, Steam. The goal is to develop a Minimum Viable Product (MVP) that includes a deployed API in a cloud service and the application of two Machine Learning models. These models address sentiment analysis on user comments about games and game recommendations based on user information.
+In this project, we simulate the role of an MLOps Engineer, combining responsibilities of a Data Engineer and Data Scientist, for the multinational video game platform, Steam. The goal is to develop a Minimum Viable Product (MVP) that includes a deployed API in a cloud service and the application of two Machine Learning models. These models address sentiment analysis on user comments about games, game recommendations based on user information and the similarity between games by genre.
 
 Steam is a digital distribution platform for video games, it has over 325 million users and offers more than 25,000 games in its catalog.
 
