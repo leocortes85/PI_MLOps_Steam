@@ -104,3 +104,35 @@ def sentiment_analysis(year: int = Query(...,
                                 description="The target year for filtering reviews", 
                                 example='2014')):
     return ft.sentiment_analysis(year)
+
+
+
+@app.get(path = '/similar_user_recs',
+          description = """ <font color="blue">
+                        INSTRUCTIONS<br>
+                        1. Click "Try it out".<br>
+                        2. Enter the user in the box below.<br>
+                        3. Scroll to "Responses body" to see a list of the most recommended items for the user based on the rating of similar users.
+                        </font>
+                        """,
+         tags=["Queries"])
+def similar_user_recs(user: str = Query(..., 
+                                description="User id in the Steam Platform", 
+                                example='Urotsuki')):
+    return ft.similar_user_recs(user)
+
+
+
+@app.get(path = '/get_recommendations_by_id',
+          description = """ <font color="blue">
+                        INSTRUCTIONS<br>
+                        1. Click "Try it out".<br>
+                        2. Enter the item id in the box below.<br>
+                        3. Scroll to "Responses body" to see a list of the most recommended similarity items.
+                        </font>
+                        """,
+         tags=["Queries"])
+def get_recommendations_by_id(item_id: int = Query(..., 
+                                description="Item id in the Steam Platform", 
+                                example='322920')):
+    return ft.get_recommendations_by_id(item_id)
