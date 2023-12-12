@@ -1,6 +1,6 @@
 data/json/
 data/csv/
-data/csv//parquet/user_sim.parquet
+data/parquet/user_sim.parquet
 /venv
 /__pycache__/
 
