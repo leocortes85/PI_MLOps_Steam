@@ -27,7 +27,6 @@ Steam is a digital distribution platform for video games, it has over 325 millio
 | **Dockerfile**           | Configuration file for creating Docker containers, providing the necessary environment to run the application. |
 | **requirements.txt**     | File listing dependencies and libraries required to run the project.                           |
 | **gitignore**            | File specifying folders and files to be ignored by version control (git).                      |
-| **gitattributes**        | File containing Git-specific attributes for certain files in the repository.                   |
 | **LICENSE**              | MIT LICENSE - File specifying the terms under which the source code is shared.                 |
 | **api_funct.py**         | Python file containing specific functions to be executed in the API.                            |
 | **main.py**              | Main Python file serving as an entry point for the application, defining API configuration and execution. |

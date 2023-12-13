@@ -26,7 +26,6 @@ Steam, una plataforma de distribución digital de videojuegos, cuenta con más d
 | **Dockerfile**                 | Archivo de configuración para la creación de contenedores Docker, proporcionando el entorno necesario para ejecutar la aplicación. |
 | **requirements.txt**           | Archivo que lista las dependencias y bibliotecas necesarias para ejecutar el proyecto. |
 | **gitignore**                  | Archivo que especifica las carpetas y archivos que deben ser ignorados por el control de versiones (git). |
-| **gitattributes**              | Archivo que contiene atributos específicos de Git para ciertos archivos en el repositorio. |
 | **LICENSE**                    | MIT LICENSE - Archivo que especifica los términos de la licencia bajo la cual se comparte el código fuente. |
 | **api_funct.py**               | Archivo Python que contiene funciones específicas que se ejecutarán en la API. |
 | **main.py**                    | Archivo Python principal que sirve como punto de entrada para la aplicación y define la configuración y ejecución de la API. |
