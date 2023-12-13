@@ -258,8 +258,8 @@ def user_similarity(user: str):
     '''
     # Check if the user is present in the umatrix_norm columns (if not, return a message)
     if user not in umatrix_norm.columns:
-        return('No data available on user {}'.format(user))
-  
+        return 'No data available on user {}'.format(user)
+    
     # Get the users most similar to the given user
     sim_users = user_sim_df.sort_values(by=user, ascending=False).index[1:11]
     
@@ -269,21 +269,17 @@ def user_similarity(user: str):
     # For each similar user, find the highest rated item and add it to the 'best' list
     for i in sim_users:
         max_score = umatrix_norm.loc[:, i].max()
-        best.append(umatrix_norm[umatrix_norm.loc[:, i]==max_score].index.tolist())
+        best.extend(umatrix_norm[umatrix_norm.loc[:, i] == max_score].index.tolist())
            
     # Counts how many times each item is recommended
-    for i in range(len(best)):
-        for j in best[i]:
-            if j in most_common:
-                most_common[j] += 1
-            else:
-                most_common[j] = 1
+    for j in best:
+        most_common[j] = most_common.get(j, 0) + 1
     
     # Sort items by recommendation frequency in descending order
     sorted_list = sorted(most_common.items(), key=operator.itemgetter(1), reverse=True)
     
     # Return 5 most recommend items
-    return 'Users who are similar to {}:'.format(user), 'also liked it', sorted_list[:5]
+    return 'Users who are similar to {}: also liked it'.format(user), sorted_list[:5]
 
 
 
@@ -316,6 +312,6 @@ def item_similarity(item_id: int):
     similar_games = similar_games.drop(game_name)
 
     # Take the first 5 games as recommendations and return in list format
-    recommendations = similar_games.head(5).index.tolist()
+    recommendations = similar_games.nlargest(5).index.tolist()
 
     return 'Recommend similar items to item {}'.format(item_id), recommendations
