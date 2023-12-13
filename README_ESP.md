@@ -17,6 +17,23 @@ Este proyecto simula el rol de un MLOps Engineer, combinando las responsabilidad
 
 Steam, una plataforma de distribución digital de videojuegos, cuenta con más de 325 millones de usuarios y ofrece más de 25,000 juegos en su catálogo.
 
+## Estructura del Proyecto
+
+| Carpeta/Archivo                | Descripción                               |
+| ------------------------------ | ----------------------------------------- |
+| **/data**                      | Carpeta que almacena los conjuntos de datos y archivos utilizados por las funciones API. |
+| **/Feature_Notebooks**         | Carpeta con cuadernos Jupyter utilizados para la transformación, análisis de datos y desarrollo de modelos. |
+| **Dockerfile**                 | Archivo de configuración para la creación de contenedores Docker, proporcionando el entorno necesario para ejecutar la aplicación. |
+| **requirements.txt**           | Archivo que lista las dependencias y bibliotecas necesarias para ejecutar el proyecto. |
+| **gitignore**                  | Archivo que especifica las carpetas y archivos que deben ser ignorados por el control de versiones (git). |
+| **gitattributes**              | Archivo que contiene atributos específicos de Git para ciertos archivos en el repositorio. |
+| **LICENSE**                    | MIT LICENSE - Archivo que especifica los términos de la licencia bajo la cual se comparte el código fuente. |
+| **api_funct.py**               | Archivo Python que contiene funciones específicas que se ejecutarán en la API. |
+| **main.py**                    | Archivo Python principal que sirve como punto de entrada para la aplicación y define la configuración y ejecución de la API. |
+| **README.md**                  | Documentación principal del proyecto, en inglés. |
+| **README_ESP.md**              | Documentación principal del proyecto, en español. |
+
+
 ## Conjuntos de Datos Utilizados
 
 Se utilizaron tres archivos JSON proporcionados:
