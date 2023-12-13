@@ -45,6 +45,6 @@ Se utilizaron tres archivos JSON proporcionados:
 - Se utilizaron algoritmos basados en memoria, utilizando la similitud del coseno para medir similitudes entre juegos y usuarios.
 - Se generaron listas de 5 juegos recomendados para un juego específico o un usuario, respectivamente.
 
-Este README proporciona una visión general del proyecto MLOps para la plataforma Steam, destacando los procesos clave y los resultados obtenidos. Para obtener información detallada sobre la implementación, consulte la documentación y el código fuente en el [repositorio de GitHub](https://github.com/leocortes85/PI_MLOps_Steam). También puede acceder a la API y explorar la documentación en [Enlace de la API](/docs). 
+Este README proporciona una visión general del proyecto MLOps para la plataforma Steam, destacando los procesos clave y los resultados obtenidos. Para obtener información detallada sobre la implementación, consulte la documentación y el código fuente en el [repositorio de GitHub](https://github.com/leocortes85/PI_MLOps_Steam). También puede acceder a la API y explorar la documentación en [Enlace de la API](https://mlops-steam-leo.onrender.com/). 
 
 Para conocer más sobre el creador de este proyecto, visite su  [LinkedIn profile](https://www.linkedin.com/in/leonardo-cort%C3%A9s-zambrano-13522295/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/leonardo-cort%C3%A9s-zambrano-13522295/).
