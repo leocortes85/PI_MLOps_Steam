@@ -39,11 +39,33 @@ Three provided JSON files were used:
 - EDA was conducted on transformed datasets using Pandas, Matplotlib, and Seaborn.
 - Relevant variables for creating the recommendation model were identified.
 
+## Functions and API Creation
+
+Following the Transformation and Feature Engineering phase, the following functions have been developed based on the selected data and variables:
+
+- **PlayTimeGenre:** Takes a genre as a parameter and returns the release year with the highest number of hours played for that genre.
+- **UserForGenre:** Accepts a genre as input and provides information on the user with the highest playtime for the specified genre. It also returns a list of playtime hours per year for that user.
+- **UsersRecommend:** Takes a year as input and produces a list of dictionaries. Each dictionary represents a game's position and its count of 'True' recommendations.
+- **UsersNotRecommend:** Requires a year as input and outputs a list of dictionaries. Each dictionary signifies a game's position and its count of 'False' recommendations.
+- **sentiment_analysis:** Given a year as input, returns a dictionary containing the count of reviews for each sentiment category in that year.
+
+These functions are designed to be consumed through an API built with the Fast API framework.
+
 ## Recommendation Models
 
 - Two recommendation models were developed: item-item and user-game.
 - Memory-based algorithms were used, utilizing cosine similarity to measure similarities between games and users.
 - Lists of 5 recommended games were generated for a specific game or user, respectively.
+
+## Deployment
+
+The API deployment in the cloud was executed using the Render platform, with automatic deployment triggered from GitHub. The deployment process involved the following steps:
+
+- Creation of a Dockerfile for deployment, specifying the necessary versions and paths for containerization.
+- Establishment of a new web service on render.com, connected to a current auxiliary repository (accessible [HERE](https://github.com/leocortes85/STEAM_API)), and utilizing Docker as the runtime environment.
+
+*_(<span style="color: #dddddd;">Note: An auxiliary repository with reduced databases is employed for proper execution from Render, addressing its memory limitations.</span>)_*
+
 
 This README provides an overview of the MLOps project for the Steam platform, highlighting key processes and outcomes. For detailed information on implementation, refer to the documentation and source code on the [GitHub repository](https://github.com/leocortes85/PI_MLOps_Steam). You can also access the API and explore the documentation at the [API link](https://mlops-steam-leo.onrender.com/).
 
