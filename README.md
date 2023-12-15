@@ -23,7 +23,6 @@ Steam is a digital distribution platform for video games, it has over 325 millio
 | ------------------------ | -------------------------------------------------------------------------------------------- |
 | **/data**                | Folder that stores datasets and files used by the API functions.                              |
 | **/Feature_Notebooks**   | Folder containing Jupyter notebooks used for data transformation, analysis, and model development. |
-| **/scripts**             | Folder containing scripts and utilities necessary for various tasks in the project.           |
 | **Dockerfile**           | Configuration file for creating Docker containers, providing the necessary environment to run the application. |
 | **requirements.txt**     | File listing dependencies and libraries required to run the project.                           |
 | **gitignore**            | File specifying folders and files to be ignored by version control (git).                      |
