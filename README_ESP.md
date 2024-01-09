@@ -9,7 +9,6 @@
 
 # Proyecto MLOps para la Plataforma Steam
 
-Proyecto individual parar el bootcamp de Data Science de 'Soy Henry'
 
 ## Descripción del Proyecto
 
