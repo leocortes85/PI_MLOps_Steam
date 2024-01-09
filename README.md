@@ -9,7 +9,7 @@
 
 # MLOps Project for Steam Platform
 
-Individual Project for 'Soy Henry' Data Boot Camp
+
 
 ## Project Description
 
